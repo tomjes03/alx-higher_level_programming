@@ -41,14 +41,14 @@ class Square:
         """Define the < comparison to a Square."""
         return self.area() < other.area()
 
-                                                                                                                                                                                                                                    def __le__(self, other):
-                                                                                                                                                                                                                                                """Define the <= comparison to a Square."""
-                                                                                                                                                                                                                                                        return self.area() <= other.area()
+    def __le__(self, other):
+        """Define the <= comparison to a Square."""
+        return self.area() <= other.area()
 
-                                                                                                                                                                                                                                                        def __gt__(self, other):
-                                                                                                                                                                                                                                                                    """Define the > comparison to a Square."""
-                                                                                                                                                                                                                                                                            return self.area() > other.area()
+    def __gt__(self, other);
+        """Define the > comparison to a Square."""
+        return self.area() > other.area()
 
-                                                                                                                                                                                                                                                                            def __ge__(self, other):
-                                                                                                                                                                                                                                                                                        """Define the >= compmarison to a Square."""
-                                                                                                                                                                                                                                                                                                return self.area() >= other.area()
+    def __ge__(self, other):
+        """Define the >= compmarison to a Square."""
+        return self.area() >= other.area()
